@@ -12,6 +12,7 @@ fn main() {
      let is_nysc_fun: bool = false;
     */
 
+    let a = false;  
     // Tuple
     let employee: (&str, &str, i8) = ("James", "Software Developer", 29);
     let (_name, _designation, _age) = employee;
