@@ -19,9 +19,16 @@ fn main() {
     let worker_name: &str = employee.0;
     println!("Employee name is: {worker_name}");
 
+    genesis();
+
+    
+
+    
+}
+
+fn genesis(){
     // Arrays
     let colors: [&str; 5] = ["red", "purple", "yellow", "blue", "green"];
-
     loop {
         println!("Enter enter an array index ...");
         let mut index = String::new();
